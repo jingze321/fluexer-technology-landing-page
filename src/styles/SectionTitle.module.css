@@ -1,0 +1,157 @@
+/* YourComponentStyles.css */
+
+.section {
+  /* background: url("your-background-image.jpg"); */
+  background-size: cover;
+  padding: 80px 0;
+  box-shadow: none;
+}
+
+.sectionTitle {
+  margin-bottom: 40px;
+  text-align: center;
+  /* border-bottom: 2px solid #ffbb2c;  */
+  padding-bottom: 10px; /* Add some padding to the bottom */
+}
+
+.sectionDescription {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.iconBox {
+  text-align: center;
+}
+
+.icon {
+  font-size: 48px;
+  color: #ffbb2c; /* Replace with your desired icon color */
+}
+
+.iconBoxTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.iconBoxDescription {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.sectionTitle {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+.sectionTitle h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.sectionTitle h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.sectionTitle h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.sectionTitle p {
+  margin-bottom: 0;
+}
+
+.boxBorder {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1); 
+  padding: 30px 30px;
+  transition: all ease-in-out 0.4s;
+  transform: translateY(0); 
+}
+
+/* Add hover styles */
+.boxBorder:hover {
+  transform: translateY(-10px); 
+  color: #37517e;
+}
+
+.sectionTitle3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.sectionTitle2 h2{
+  color: #333;
+  font-weight: 700;
+  font-size: 48px;
+  font-family: 'TT Firs Neue Bold', sans-serif;
+}
+
+.sectionTitle3 h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.sectionTitle3 h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+.sectionTitle2 span {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #111;
+  font-weight: 800;
+}
+
+.bottomCorner{
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: red;
+
+}
+.bottomCorner::after {
+  content:'';
+  position: absolute;
+  background-color: #85C1E9;
+  width: 3px;
+  height: 50%;
+  bottom: 0;
+  right:45px;
+ 
+}
+.bottomCorner::before {
+  content:'';
+  position: absolute;
+  background-color: #85C1E9;
+  width: 20%;
+  height: 3px;
+  bottom: 0;
+  right:45px;
+ 
+}

@@ -1,0 +1,194 @@
+{
+  
+    "common":{
+      "home": "首页", 
+      "about": "关于", 
+      "services": "服务",
+      "contact":"联系我们",
+      "career":"招聘",
+      "learnMore":"了解更多"
+    },
+    "navbar": {
+      "myLogo": "我的标志",
+      "language": {
+        "english": "英文", 
+        "chinese": "中文" 
+      },
+      "home": "首页", 
+      "about": "关于", 
+      "services": "服务",
+      "contact":"联系我们",
+      "career":"招聘",
+      "test": "This is a test translation."
+    },
+    "footer":{
+      "aboutUs": "关于我们",
+      "aboutUsText": "我们是一家领先的技术公司，致力于提供创新的解决方案，为企业和个人提供支持。我们的使命是创造对世界产生积极影响的尖端产品。",
+      "links": "链接",
+      "home": "主页",
+      "about": "关于",
+      "services": "服务",
+      "career": "职业",
+      "contactUs": "联系我们",
+      "contactInfo": "联系方式",
+      "address": "地址：03-04, Floor 18, 34, Jln Sultan Ismail, Bukit Bintang, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+      "email": "电子邮件：contact@example.com",
+      "phone": "电话：+1 (123) 456-7890",
+      "businessHours": "营业时间：周一至周五 上午9:00至下午6:00"
+    },
+    "index": {
+      "services": {
+        "title": "服务",
+        "description": "我们的服务旨在满足您独特的需求并超越您的期望。我们专注于提供高质量的解决方案，推动成功。凭借我们的专业知识，您可以提升品牌声誉，优化图像搜索结果，改进官方网站，并简化通信服务。让我们帮助您实现您的目标，在数字领域脱颖而出。"
+      },
+      "service1": "品牌搜索声誉管理",
+      "serviceDescription1": "品牌搜索声誉管理的描述在这里。",
+      "service2": "品牌搜索图像优化",
+      "serviceDescription2": "品牌搜索图像优化的描述在这里。",
+      "service3": "品牌官方网站优化",
+      "serviceDescription3": "品牌官方网站优化的描述在这里。",
+      "service4": "品牌搜索通信服务",
+      "serviceDescription4": "品牌搜索通信服务的描述在这里。",
+      "about":{
+        "title":"关于我们的公司",
+        "description": "在我们的公司，我们致力于提供高质量的解决方案，以满足您独特的需求并超越您的期望。我们专注于提供卓越的服务，以帮助您提升品牌声誉，优化图像搜索结果，改善官方网站并简化沟通服务。让我们帮助您实现目标，在数字领域脱颖而出。"
+      },
+      "heroSection": {
+        "title": "欢迎来到Fluxer科技",
+        "subtitle": "创新. 赋能. 转型.",
+        "aboutUsButton": "关于我们"
+      },
+      "slogan":{
+        "innovate": "创新",
+        "empower":"赋能",
+        "trasform":"转型"
+      }
+    },
+    "about": {
+      "hero":{
+        "title":"关于我们",
+        "subHeading":"极致本就永无止境，只为那点滴提升"
+      },
+      "provide": {
+        "companyIntroduction":"公司介绍",
+        "companyDescription": "Fluxer Technology 专注于为品牌提供互联网全场景搜索营销一站式解决方案，立足品牌的搜索生态环境营销，以数据为核心，内容为基点，信息协同搜索技术为支撑，维护品牌在全场景搜索矩阵中的健康度、美誉度、形象化展示，助力品牌事件传播加乘，彰显品牌价值。",
+        "ourVision": "我们的愿景",
+        "ourVisionDescription":"以用户全场景搜索矩阵结果为核心，利用大数据智能分析，帮助品牌构建、完善搜索营销环境，实现品牌价值最大化。"
+      },
+      "why": {
+        "best": "为什么我们是最好的？",
+        "description": "不要浪费时间在手动任务上。让自动化为您完成。简化工作流程，减少错误，节省时间。",
+        "quality": "质量",
+        "communication": "沟通",
+        "reliability": "可靠性",
+        "qualityDescription": "为我们的客户提供高质量的产品和服务",
+        "communicationDescription": "与客户和团队成员进行有效的沟通",
+        "reliabilityDescription": "为您的需求提供可靠和值得信赖的解决方案"
+      }
+    },
+    "network": {
+      "title": "探索我们的货币兑换选项。",
+      "paragraph": "通过我们的货币兑换服务，发现孟加拉国的金融中心。"
+    },
+    "whatWeDo": {
+      "title": "我们的业务",
+      "services": [
+        {
+          "title": "Web 应用",
+          "description": "根据您的需求创建功能强大的 Web 应用程序。"
+        },
+        {
+          "title": "移动应用开发",
+          "description": "为 iOS 和 Android 平台构建移动应用。"
+        },
+        {
+          "title": "在线营销",
+          "description": "通过我们的营销策略提升您的在线存在。"
+        }
+      ]
+    },
+    "error":{
+      "pageNotFound": "找不到页面",
+      "klinikSaiDeepa": "Klinik Sai Deepa",
+      "pageNotFoundTitle": "找不到页面",
+      "pageNotFoundDescription": "您要查找的页面不存在。",
+      "goToHomepage": "返回首页"
+    },
+    "career": {
+      "jobRequirements":"岗位要求",
+      "jobResponsibilities":"岗位职责",
+      "fullStackDeveloper": "全栈开发人员",
+      "fullStackDeveloperDescription": "这是全栈开发人员职位的描述",
+      "fullStackDeveloperRequirement1": "全栈开发人员要求1",
+      "fullStackDeveloperRequirement2": "全栈开发人员要求2",
+      "fullStackDeveloperRequirement3": "全栈开发人员要求3",
+      "frontEndDeveloper": "前端开发人员",
+      "frontEndDeveloperDescription": "这是前端开发人员职位的描述",
+      "frontEndDeveloperRequirement1": "前端开发人员要求1",
+      "frontEndDeveloperRequirement2": "前端开发人员要求2",
+      "frontEndDeveloperRequirement3": "前端开发人员要求3",
+      "backEndDeveloper": "后端开发人员",
+      "backEndDeveloperDescription": "这是后端开发人员职位的描述",
+      "backEndDeveloperRequirement1": "后端开发人员要求1",
+      "backEndDeveloperRequirement2": "后端开发人员要求2",
+      "backEndDeveloperRequirement3": "后端开发人员要求3",
+      "softwareTestingDeveloper": "软件测试开发人员",
+      "softwareTestingDeveloperDescription": "这是软件测试开发人员职位的描述",
+      "softwareTestingDeveloperRequirement1": "软件测试开发人员要求1",
+      "softwareTestingDeveloperRequirement2": "软件测试开发人员要求2",
+      "softwareTestingDeveloperRequirement3": "软件测试开发人员要求3",
+      "admin": "管理员",
+      "adminDescription": "这是管理员职位的描述",
+      "adminRequirement1": "管理员要求1",
+      "adminRequirement2": "管理员要求2",
+      "adminRequirement3": "管理员要求3",
+      "onlineMarketer": "线上营销人员",
+      "onlineMarketerDescription": "这是线上营销人员职位的描述",
+      "onlineMarketerRequirement1": "线上营销人员要求1",
+      "onlineMarketerRequirement2": "线上营销人员要求2",
+      "onlineMarketerRequirement3": "线上营销人员要求3",
+      "uiUxDesigner": "用户体验/用户界面设计师",
+      "uiUxDesignerDescription": "这是UI/UX设计师职位的描述",
+      "uiUxDesignerRequirement1": "UI/UX设计师要求1",
+      "uiUxDesignerRequirement2": "UI/UX设计师要求2",
+      "uiUxDesignerRequirement3": "UI/UX设计师要求3",
+      "sendResumeText": "如果您有兴趣申请此职位，请将您的简历发送至abc@fluxertechnology.com。您也可以直接在JobStreet.com上申请。"
+    },
+    "benefit": {
+      "title": "福利待遇",
+      "items": [
+        {
+          "title": "竞争力薪资",
+          "description": "我们提供具有竞争力的薪资待遇，以奖励您的技能和经验。"
+        },
+        {
+          "title": "医疗保险",
+          "description": "享受全面的医疗保险，关心您和您家人的健康福祉。"
+        },
+        {
+          "title": "职业发展",
+          "description": "通过职业发展和培训机会来投资您的职业成长。"
+        },
+        {
+          "title": "工作与生活平衡",
+          "description": "我们重视工作与生活的平衡，提供灵活的工作时间和远程工作选择。"
+        }
+      ]
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "与我们携手，留下难忘的服务体验",
+      "getInTouch": "联系我们",
+      "getInTouchDescription": "随时与我们联系。我们在这里帮助您！",
+      "location": "位置：",
+      "locationAddress": "纽约市，亚当街A108号，邮编535022",
+      "email": "电子邮件：",
+      "emailAddress": "info@example.com",
+      "call": "联系电话：",
+      "phoneNumber": "1 5589 55488 55",
+      "aboutFluxerTitle":"关于 Fluxer Technology (华兴科技）",
+      "aboutFluxerDescription": "Fluxer Technology（华兴科技）是一家致力于通过创新塑造未来的尖端技术公司。我们热爱技术，致力于卓越，利用数字世界的最新进展，创建能够赋能企业和个人的解决方案。\n\n在Fluxer Technology，我们相信技术的可能性是无限的。我们专注于开发软件、应用程序和系统，以简化运营、提升用户体验并推动增长。我们的专家团队秉承着共同的愿景：让技术为您服务。\n\n在创造力和问题解决方面，Fluxer Technology是您在不断发展的技术领域的值得信赖的合作伙伴。我们努力使复杂的事情变得简单，并将您的想法变为现实。加入我们，一起迎接充满创新的未来之旅。发现在Fluxer Technology有什么可能性。",
+      "paragraph3": ""
+    }
+  }
+  

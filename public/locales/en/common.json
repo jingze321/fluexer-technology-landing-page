@@ -1,0 +1,192 @@
+{
+    "common":{
+      "home": "Home", 
+      "about": "About", 
+      "services": "Service",
+      "contact":"Contact Us",
+      "career":"Career",
+      "learnMore":"Learn More"
+    },
+    "navbar": {
+      "myLogo": "Logo",
+      "language": {
+        "english": "English", 
+        "chinese": "Chinese" 
+      },
+      "home": "Home", 
+      "about": "About", 
+      "services": "Service",
+      "contact":"Contact Us",
+      "career":"Career",
+      "test": "This is a test translation."
+    },
+    "footer":{
+      "aboutUs": "About Us",
+      "aboutUsText": "We are a leading technology company dedicated to delivering innovative solutions that empower businesses and individuals. Our mission is to create cutting-edge products that make a positive impact on the world.",
+      "links": "Links",
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "career": "Career",
+      "contactUs": "Contact Us",
+      "contactInfo": "Contact Us",
+      "address": "03-04, Floor 18, 34, Jln Sultan Ismail, Bukit Bintang, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+      "email": "Email: contact@example.com",
+      "phone": "Phone: +1 (123) 456-7890",
+      "businessHours": "Business Hours: Mon - Fri 9:00 AM to 6:00 PM"
+    },    
+    "index":{
+      "services": {
+        "title": "Services",
+        "description": "Our services are designed to meet your unique needs and exceed your expectations. We specialize in delivering high-quality solutions that drive success. With our expertise, you can enhance your brand's reputation, optimize image search results, improve your official website, and streamline communication services. Let us help you achieve your goals and stand out in the digital landscape."
+      },
+      "service1": "Brand Search Reputation Management",
+      "serviceDescription1": "Brand Search Reputation Management description goes here.",
+      "service2": "Brand search image optimization",
+      "serviceDescription2": "Brand search image optimization description goes here.",
+      "service3": "Brand official website optimization",
+      "serviceDescription3": "Brand official website optimization description goes here.",
+      "service4": "Brand search communication service",
+      "serviceDescription4": "Brand search communication service description goes here.",
+      "about":{
+        "title":"About Us",
+        "description": "At our company, we are committed to delivering high-quality solutions tailored to meet your unique needs and exceed your expectations. We specialize in providing exceptional services to help you enhance your brand's reputation, optimize image search results, improve your official website, and streamline communication services. Let us assist you in achieving your goals and standing out in the digital landscape."
+      },
+      "heroSection": {
+        "title": "Welcome TO Fluxer Technology",
+        "subtitle": "Innovate. Empower. Transform.",
+        "aboutUsButton": "About Us"
+      },
+      "slogan":{
+        "innovate": "Innovate",
+        "empower":"Empower",
+        "trasform":"Transform"
+      }
+    },
+    "about": {
+      "hero":{
+        "title":"About Us",
+        "subHeading":"The ultimate pursuit knows no bounds, only for those tiny improvements"
+      },
+      "provide": {
+        "companyIntroduction":"Company Introduction",
+        "companyDescription": "Fluxer Technology specializes in providing brands with a one-stop solution for internet-wide search marketing. We focus on brand search ecology marketing, with data as the core, content as the foundation, and information collaborative search technology as the support. We maintain the brand's health, reputation, and image display in the full-scenario search matrix, empowering brand event propagation and showcasing brand value.",
+        "ourVision": "Our Vision",
+        "ourVisionDescription":"Centered on the results of the comprehensive user search matrix, we use intelligent big data analysis to assist brands in building and improving their search marketing environment, ultimately achieving maximum brand value."
+      },
+      "why": {
+        "best": "Why we're the best?",
+        "description": "Don't waste time on manual tasks. Let Automation do it for you. Simplify workflows, reduce errors, and save time.",
+        "quality": "Quality",
+        "communication": "Communication",
+        "reliability": "Reliability",
+        "qualityDescription": "Deliver high-quality products and services to our customers.",
+        "communicationDescription": "Effective communication with clients and team members.",
+        "reliabilityDescription": "Dependable and trustworthy solutions for your needs."
+      }
+    },
+    "network": {
+      "title": "Explore Our Currency Exchange Options.",
+      "paragraph": "Discover the financial heart of Bangladesh with our currency exchange services."
+    },
+    "whatWeDo": {
+      "title": "What We Do",
+      "services": [
+        {
+          "title": "Web Application",
+          "description": "Create powerful web applications tailored to your needs."
+        },
+        {
+          "title": "Mobile App Development",
+          "description": "Build mobile apps for iOS and Android platforms."
+        },
+        {
+          "title": "Online Marketing",
+          "description": "Boost your online presence with our marketing strategies."
+        }
+      ]
+    },
+    "error":{
+      "pageNotFound": "Page Not Found",
+      "klinikSaiDeepa": "Klinik Sai Deepa",
+      "pageNotFoundTitle": "Page Not Found",
+      "pageNotFoundDescription": "The page you are looking for doesn't exist.",
+      "goToHomepage": "Go to Homepage"
+    },
+    "career": {
+      "jobRequirements":"Job Requirements",
+      "jobResponsibilities":"Job Responsibilities",
+      "fullStackDeveloper": "Full Stack Developer",
+      "fullStackDeveloperDescription": "This is the description for Full Stack Developer position",
+      "fullStackDeveloperRequirement1": "Requirement 1 for Full Stack Developer",
+      "fullStackDeveloperRequirement2": "Requirement 2 for Full Stack Developer",
+      "fullStackDeveloperRequirement3": "Requirement 3 for Full Stack Developer",
+      "frontEndDeveloper": "Front-end Developer",
+      "frontEndDeveloperDescription": "This is the description for Front-end Developer position",
+      "frontEndDeveloperRequirement1": "Requirement 1 for Front-end Developer",
+      "frontEndDeveloperRequirement2": "Requirement 2 for Front-end Developer",
+      "frontEndDeveloperRequirement3": "Requirement 3 for Front-end Developer",
+      "backEndDeveloper": "Back-end Developer",
+      "backEndDeveloperDescription": "This is the description for Back-end Developer position",
+      "backEndDeveloperRequirement1": "Requirement 1 for Back-end Developer",
+      "backEndDeveloperRequirement2": "Requirement 2 for Back-end Developer",
+      "backEndDeveloperRequirement3": "Requirement 3 for Back-end Developer",
+      "softwareTestingDeveloper": "Software Testing Developer",
+      "softwareTestingDeveloperDescription": "This is the description for Software Testing Developer position",
+      "softwareTestingDeveloperRequirement1": "Requirement 1 for Software Testing Developer",
+      "softwareTestingDeveloperRequirement2": "Requirement 2 for Software Testing Developer",
+      "softwareTestingDeveloperRequirement3": "Requirement 3 for Software Testing Developer",
+      "admin": "Admin",
+      "adminDescription": "This is the description for Admin position",
+      "adminRequirement1": "Requirement 1 for Admin",
+      "adminRequirement2": "Requirement 2 for Admin",
+      "adminRequirement3": "Requirement 3 for Admin",
+      "onlineMarketer": "Online Marketer",
+      "onlineMarketerDescription": "This is the description for Online Marketer position",
+      "onlineMarketerRequirement1": "Requirement 1 for Online Marketer",
+      "onlineMarketerRequirement2": "Requirement 2 for Online Marketer",
+      "onlineMarketerRequirement3": "Requirement 3 for Online Marketer",
+      "uiUxDesigner": "UI/UX Designer",
+      "uiUxDesignerDescription": "This is the description for UI/UX Designer position",
+      "uiUxDesignerRequirement1": "Requirement 1 for UI/UX Designer",
+      "uiUxDesignerRequirement2": "Requirement 2 for UI/UX Designer",
+      "uiUxDesignerRequirement3": "Requirement 3 for UI/UX Designer",
+      "sendResumeText": "Please send your resume to abc@fluxertechnology.com if you are interested in applying for the position, or you may also apply directly on JobStreet.com."
+    },
+    "benefit": {
+      "title": "Benefits",
+      "items": [
+        {
+          "title": "Competitive Salary",
+          "description": "We offer a competitive salary package to reward your skills and experience."
+        },
+        {
+          "title": "Healthcare Coverage",
+          "description": "Enjoy comprehensive healthcare coverage for you and your family's well-being."
+        },
+        {
+          "title": "Professional Development",
+          "description": "Invest in your career growth with opportunities for professional development and training."
+        },
+        {
+          "title": "Work-Life Balance",
+          "description": "We value work-life balance, providing flexible hours and remote work options."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Team Up With Us Today For An Unforgettable Service Experience",
+      "getInTouch": "Get in touch",
+      "getInTouchDescription": "Reach out to us anytime. We are here to help!",
+      "location": "Location:",
+      "locationAddress": "A108 Adam Street, New York, NY 535022",
+      "email": "Email:",
+      "emailAddress": "info@example.com",
+      "call": "Call:",
+      "phoneNumber": "1 5589 55488 55",
+      "aboutFluxerTitle":"About Fluxer Technology",
+      "aboutFluxerDescription": "Fluxer Technology is a cutting-edge technology company dedicated to shaping the future through innovation. With a passion for technology and a commitment to excellence, we leverage the latest advancements in the digital world to create solutions that empower businesses and individuals.\n\nAt Fluxer Technology, we believe that the possibilities in technology are endless. We specialize in developing software, applications, and systems that streamline operations, enhance user experiences, and drive growth. Our team of experts is driven by a shared vision: to make technology work for you.\n\nWith a focus on creativity and problem-solving, Fluxer Technology is your trusted partner in the ever-evolving landscape of technology. We strive to make the complex simple and turn your ideas into reality. Join us on this exciting journey as we embrace the future, one innovation at a time. Discover what's possible with Fluxer Technology."
+    }
+  }
+  

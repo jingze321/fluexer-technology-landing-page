@@ -1,0 +1,51 @@
+/* contactStyles.module.css */
+.sectionTitle {
+  margin: 2rem 0;
+}
+
+.getInTouchTitle {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.locationIcon {
+  flex-shrink: 0;
+  font-size: 24px;
+  color: #0189a1;
+}
+
+.locationText {
+  font-size: 18px;
+  font-weight: 600;
+  color: #485664;
+}
+
+.infoText {
+  color: grey;
+  font-weight: 1rem;
+}
+
+.emailIcon {
+  flex-shrink: 0;
+  font-size: 24px;
+  color: #0189a1;
+}
+
+.emailText {
+  font-size: 18px;
+  font-weight: 600;
+  color: #485664;
+}
+
+.phoneIcon {
+  flex-shrink: 0;
+  font-size: 24px;
+  color: #0189a1;
+}
+
+.phoneText {
+  font-size: 18px;
+  font-weight: 600;
+  color: #485664;
+}

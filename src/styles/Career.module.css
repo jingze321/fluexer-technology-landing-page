@@ -1,0 +1,12 @@
+.MuiTab-root {
+    /* Add your desired border, margin, and padding styles here */
+    border: 2px solid #ccc; /* Custom border */
+    margin-right: 8px; /* Custom margin */
+    padding: 8px 16px; /* Custom padding */
+  }
+  
+  /* Style the selected Tab */
+  .MuiTab-root.Mui-selected {
+    border-color: blue; /* Border color when tab is selected */
+  }
+  
