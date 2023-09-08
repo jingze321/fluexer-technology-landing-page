@@ -1,6 +1,7 @@
 import styles from '@/styles/pageNotFound.module.css';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { GetStaticPropsContext } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -46,10 +47,11 @@ export default function PageNotFound() {
   );
 }
 
-export async function getStaticProps({ locale }) {
+export async function getStaticProps({ locale }: GetStaticPropsContext) {
+  const actualLocale = locale || 'en'; 
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common'])),
+      ...(await serverSideTranslations(actualLocale, ['common'])),
     },
   };
 }
