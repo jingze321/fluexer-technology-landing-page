@@ -21,7 +21,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ title, description, e
         </Typography>
             <Box style={{ position: 'relative', width: '100%' }}>
               <Image 
-                src="/assets/images/about/our_team.png" 
+                src="/assets/images/service/1.png" 
                 alt="our-team" 
                 layout="responsive"
                 width={200} 
