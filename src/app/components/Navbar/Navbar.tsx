@@ -98,7 +98,7 @@ const Navbar = () => {
                     <a
                       key={item.name}
                       href={`${baseHref}${item.href}`} // Set the href attribute
-                      className={`text-gray-400 hover:bg-gray-500 px-3 py-2 rounded-md text-sm font-medium ${
+                      className={`text-black hover:bg-gray-500 px-3 py-2 rounded-md text-sm font-medium ${
                         router.pathname === `${item.href}` ? 'bg-gray-600 text-gray-100' : ''
                       }`}
                     >
@@ -151,8 +151,8 @@ const Navbar = () => {
                 <a
                   key={item.name}
                   href={`${baseHref}${item.href}`} // Set the href attribute
-                  className={`text-gray-400 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium ${
-                    router.pathname === `${baseHref}${item.href}` ? 'bg-gray-700' : ''
+                  className={`text-black hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium ${
+                    router.pathname === `${item.href}` ? 'bg-gray-700 text-gray-100' : ''
                   }`}
                 >
                   {t(`navbar.${item.name}`)}

@@ -45,11 +45,11 @@ const Contact = () => {
                       {t('contact.location')}
                     </Typography>
                     <a
-                      href="https://maps.google.com/?q=Your+Location"
+                      href="https://goo.gl/maps/U1R4BEhJap9aVyNe9"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      03-04, Floor 18, 34, Jln Sultan Ismail, Bukit Bintang, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+                      Suite 18.03-18.04, 18th Floor, Wisma Chuang, 34 Jalan Sultan Ismail, 50250 Kuala Lumpur
                     </a>
                   </Box>
                 </Box>
@@ -64,7 +64,7 @@ const Contact = () => {
                       {t('contact.email')}
                     </Typography>
                     <a
-                      href="mailto:abc@fluxertechnology.com"
+                      href="fluxertechnology@gmail.com"
                     >
                       {t('contact.emailAddress')}
                     </a>
@@ -81,9 +81,9 @@ const Contact = () => {
                       {t('contact.call')}
                     </Typography>
                     <a
-                      href="tel:+601212323232"
+                      href="tel:+60321105668"
                     >
-                      +6012-123 2323
+                      03-2110 5668
                     </a>
                   </Box>
                 </Box>
@@ -142,8 +142,7 @@ const Contact = () => {
             <Grid item lg={8} xs={12} style={{ height: '100%' }}> {/* Set the height of the Grid item */}
                 <div className="map" style={{ height: '100%' }}> {/* Set the height of the map container */}
                     <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.792937356102!2d101.7092350747765!3d3.149256753152402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362b7082a6bd%3A0xf62c902cd442d3cc!2s03-04%2C%20floor%2018%2C%2034%2C%20Jln%20Sultan%20Ismail%2C%20Bukit%20Bintang%2C%2050250%20Kuala%20Lumpur%2C%20Wilayah%20Persekutuan%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1694055666168!5m2!1sen!2smy"
-                    frameBorder="0"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7937118439904!2d101.70878487497114!3d3.1490542968263555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362b76cf4455%3A0x3e292e465ffc75b6!2sChuang%20Wisma!5e0!3m2!1sen!2smy!4v1694412015706!5m2!1sen!2smy"                     frameBorder="0"
                     allowFullScreen
                     width="100%"
                     height="100%" // Set the height to 100%
