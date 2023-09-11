@@ -6,10 +6,11 @@ import Image from 'next/image';
 interface ServicesSectionProps {
     title: string;
     description: string;
+    imgUrl : string;
     editColor: string;
   }
 
-const ServicesSection: React.FC<ServicesSectionProps> = ({ title, description, editColor }) => {
+const ServicesSection: React.FC<ServicesSectionProps> = ({ title, description, imgUrl, editColor }) => {
   return (
     <Paper className={`${styles.section} ${styles.sectionTitle}`} sx={{margin:0,backgroundColor:editColor}}>
       <Container>
@@ -21,7 +22,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ title, description, e
         </Typography>
             <Box style={{ position: 'relative', width: '100%' }}>
               <Image 
-                src="/assets/images/service/1.png" 
+                src={imgUrl} 
                 alt="our-team" 
                 layout="responsive"
                 width={200} 

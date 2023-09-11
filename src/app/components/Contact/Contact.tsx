@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { Container, Typography, Grid, Box, Divider } from '@mui/material';
-import { Room, Email, Phone } from '@mui/icons-material';
+import { Room, Email, Phone, LinkedIn, Facebook } from '@mui/icons-material'; // Import LinkedIn and Facebook icons
 import styles from '@/styles/SectionTitle.module.css';
 import { GetStaticPropsContext } from 'next';
 
@@ -26,7 +26,7 @@ const Contact = () => {
 
         <Container>
           <Grid container spacing={5}>
-            <Grid item lg={4}>
+            <Grid item lg={4} xs={12}>
               <Box sx={{ mb: 4 }}>
                 <Typography variant="h3" gutterBottom sx={{ fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif', fontWeight: 600, fontSize: '24px' }}>
                   {t('contact.getInTouch')}
@@ -86,6 +86,56 @@ const Contact = () => {
                       +6012-123 2323
                     </a>
                   </Box>
+                </Box>
+                <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: {lg:'flex-start',sm:'center'}, marginTop: '1rem', textAlign: 'center' }}>
+                  {/* LinkedIn */}
+                  <div
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '48px', // Set the desired width
+                      height: '48px', // Set the desired height
+                      borderRadius: '50%', // Make it round
+                      backgroundColor: '#0072b1', // LinkedIn blue color
+                      color: '#fff', // Text color
+                      cursor: 'pointer', // Add cursor pointer on hover
+                      marginRight: '1rem', // Add some margin to separate from the Facebook icon
+                    }}
+                  >
+                    <a
+                      href="https://www.linkedin.com/company/fluxertechnology/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: 'none' }}
+                    >
+                      <LinkedIn />
+                    </a>
+                  </div>
+
+                  {/* Facebook */}
+                  <div
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '48px', // Set the desired width
+                      height: '48px', // Set the desired height
+                      borderRadius: '50%', // Make it round
+                      backgroundColor: '#1877F2', // Facebook blue color
+                      color: '#fff', // Text color
+                      cursor: 'pointer', // Add cursor pointer on hover
+                    }}
+                  >
+                    <a
+                      href="https://www.facebook.com/profile.php?id=61550588572554"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: 'none' }}
+                    >
+                      <Facebook />
+                    </a>
+                  </div>
                 </Box>
               </Box>
             </Grid>

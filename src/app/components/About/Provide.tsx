@@ -100,7 +100,7 @@ const Provide = () => {
                 {t('about.provide.companyDescription')}
               </Typography>
               
-              <Typography variant="h6" sx={{mb:1}}style={{ fontWeight: 'bold'}}>
+              <Typography variant="h6" sx={{mb:1}}style={{ fontWeight: 'bold', textAlign:'left'}}>
                 {t('about.provide.ourVision')}:
               </Typography>
               <Typography variant="h6" color="textSecondary" sx={{lineHeight: '33px'}}>

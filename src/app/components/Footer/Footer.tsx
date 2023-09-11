@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Container, Typography, Grid, Box } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/router';
@@ -14,6 +15,7 @@ const Footer = () => {
           <Grid item xs={12} md={6}>
             <Typography variant="h6">{t('footer.aboutUs')}</Typography>
             <Typography variant="body2">{t('footer.aboutUsText')}</Typography>
+            <Image src="/assets/logo/company_logo.png" alt='Logo' width={180} height={180} />
           </Grid>
           <Grid item xs={12} md={3}>
             <Typography variant="h6">{t('footer.links')}</Typography>
