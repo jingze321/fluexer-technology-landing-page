@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head'; 
 import { GetStaticPropsContext } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -14,6 +15,9 @@ const Home: React.FC = () => {
   
   return (
     <div>
+      <Head>
+        <title>{`${t('common.home')} - Fluxer Technology`}</title>
+      </Head>
       <HeroSection />
       <AboutUsSection/>
       <ServicesSection />

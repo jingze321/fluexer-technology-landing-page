@@ -76,7 +76,7 @@ const Navbar = () => {
   const baseHref = selectedLocale !== 'en' ? `/${selectedLocale}` : '';
 
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-slate-500">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -84,10 +84,10 @@ const Navbar = () => {
               <div className="flex-shrink-0">
                 <a href={`${baseHref}/`} className="text-white text-xl font-bold">
                 <Image
-                  src="/assets/logo/company_logo.png" // Replace with your logo path
+                  src="/assets/logo/company_full_logo.png" // Replace with your logo path
                   alt="Company Logo"
-                  width={120} // Adjust the width as needed
-                  height={48} // Adjust the height as needed
+                  width={132} 
+                  height={52} 
                 />
                 </a>
               </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
                     <a
                       key={item.name}
                       href={`${baseHref}${item.href}`} // Set the href attribute
-                      className={`text-gray-300 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium ${
+                      className={`text-gray-300 hover:bg-gray-800 px-3 py-2 rounded-md text-sm font-medium ${
                         router.pathname === `${baseHref}${item.href}` ? 'bg-gray-700' : ''
                       }`}
                     >

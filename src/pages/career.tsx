@@ -15,7 +15,10 @@ export default function PageNotFound() {
   const { t } = useTranslation('common');
 
   return (
-    <>
+    <div>
+      <Head>
+        <title>{`${t('common.career')} - Fluxer Technology`}</title>
+      </Head>
       <Hero
         title={t(`common.career`)}
         subheading=""
@@ -28,7 +31,7 @@ export default function PageNotFound() {
         imageUrl="/assets/images/career/career_hero.png"
       />
       <Benefit/>
-    </>
+    </div>
   );
 }
 

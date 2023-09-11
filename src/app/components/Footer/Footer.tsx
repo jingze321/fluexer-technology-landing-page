@@ -9,13 +9,15 @@ const Footer = () => {
   const router = useRouter();
 
   return (
-    <footer style={{ backgroundColor: '#333', color: '#fff', padding: '20px 0  0 0' }}>
+    <footer className={'bg-gray-500'} style={{  color: '#fff', padding: '20px 0  0 0' }}>
       <Container maxWidth="lg">
         <Grid container spacing={3}>
           <Grid item xs={12} md={6}>
             <Typography variant="h6">{t('footer.aboutUs')}</Typography>
             <Typography variant="body2">{t('footer.aboutUsText')}</Typography>
-            <Image src="/assets/logo/company_logo.png" alt='Logo' width={180} height={180} />
+            <Box sx={{my:2}}>
+              <Image src="/assets/logo/company_full_logo.png" alt='Logo' width={180} height={180}/>
+            </Box>
           </Grid>
           <Grid item xs={12} md={3}>
             <Typography variant="h6">{t('footer.links')}</Typography>
@@ -61,7 +63,7 @@ const Footer = () => {
           </Grid>
         </Grid>
       </Container>
-      <Box style={{ backgroundColor: '#222', padding: '10px 0', textAlign: 'center' }}>
+      <Box style={{ backgroundColor: '#222', padding: '10px 0', textAlign: 'center', marginTop:'20px'}}>
         © Copyright 2023 FLUXER TECHNOLOGY SDN BHD . All rights reserved.
       </Box>
     </footer>

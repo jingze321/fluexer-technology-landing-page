@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { GetStaticPropsContext } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -72,9 +73,11 @@ const Service: React.FC = () => {
 
   return (
     <main>
-
+      <Head>
+        <title>{`${t('common.services')} - Fluxer Technology`}</title>
+      </Head>
       <Hero
-        title={t(`about.hero.title`)}
+        title={t(`common.services`)}
         subheading={t(`about.hero.subHeading`)}
         image="/assets/images/career/career_hero.png"
       />

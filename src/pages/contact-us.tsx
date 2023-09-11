@@ -14,7 +14,7 @@ const ContactUsPage = ({ locale = 'en' }) => {
   return (
     <div>
       <Head>
-        <title>Contact Us</title>
+        <title>{`${t('common.contact')} - Fluxer Technology`}</title>
       </Head>
       <Contact/>
     </div>

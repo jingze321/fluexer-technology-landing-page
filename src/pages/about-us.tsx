@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { GetStaticPropsContext } from 'next';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -14,6 +15,9 @@ const About: React.FC = () => {
   const { t } = useTranslation('common');
   return (
     <div>
+      <Head>
+        <title>{`${t('about.hero.title')} - Fluxer Technology`}</title>
+      </Head>
       <Hero
         title={t(`about.hero.title`)}
         subheading={t(`about.hero.subHeading`)}
