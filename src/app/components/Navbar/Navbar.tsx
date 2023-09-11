@@ -29,7 +29,7 @@ const theme = createTheme({
           color: 'white',
         },
         icon: {
-          fill: 'white',
+          fill: 'black',
         },
       },
     },
@@ -43,12 +43,12 @@ const useStyles = makeStyles((theme) => ({
     color: 'white',
   },
   select: {
-    color: 'white',
+    color: 'black',
     '&:before': {
-      borderColor: 'white',
+      borderColor: 'black',
     },
     '&:after': {
-      borderColor: 'white',
+      borderColor: 'black',
     },
   },
   icon: {
@@ -76,7 +76,7 @@ const Navbar = () => {
   const baseHref = selectedLocale !== 'en' ? `/${selectedLocale}` : '';
 
   return (
-    <Disclosure as="nav" className="bg-slate-400">
+    <Disclosure as="nav" className="bg-slate-200">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -98,8 +98,8 @@ const Navbar = () => {
                     <a
                       key={item.name}
                       href={`${baseHref}${item.href}`} // Set the href attribute
-                      className={`text-gray-300 hover:bg-gray-500 px-3 py-2 rounded-md text-sm font-medium ${
-                        router.pathname === `${item.href}` ? 'bg-gray-600' : ''
+                      className={`text-gray-400 hover:bg-gray-500 px-3 py-2 rounded-md text-sm font-medium ${
+                        router.pathname === `${item.href}` ? 'bg-gray-600 text-gray-100' : ''
                       }`}
                     >
                       {t(`navbar.${item.name}`)}
@@ -110,7 +110,7 @@ const Navbar = () => {
 
               <div className="hidden sm:block ml-4 relative">
                 <FormControl className={classes.formControl}>
-                  <ThemeProvider theme={theme}>
+                  <ThemeProvider theme={theme} >
                     <Select
                       labelId="language-label"
                       id="language"
@@ -119,6 +119,7 @@ const Navbar = () => {
                         setSelectedLocale(e.target.value as string);
                         changeLanguage(e.target.value as string);
                       }}
+                      className='text-black'
                     >
                       <MenuItem value="en">
                         {languageIcons.english} {t('navbar.language.english')}
@@ -132,7 +133,7 @@ const Navbar = () => {
               </div>
 
               <div className="flex items-center sm:hidden">
-                <Disclosure.Button className="text-gray-400 hover:text-white">
+                <Disclosure.Button className="text-gray-800 hover:text-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <ExpandMoreIcon className="h-6 w-6" />
@@ -150,7 +151,7 @@ const Navbar = () => {
                 <a
                   key={item.name}
                   href={`${baseHref}${item.href}`} // Set the href attribute
-                  className={`text-gray-300 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium ${
+                  className={`text-gray-400 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium ${
                     router.pathname === `${baseHref}${item.href}` ? 'bg-gray-700' : ''
                   }`}
                 >
