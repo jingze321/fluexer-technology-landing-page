@@ -98,8 +98,8 @@ const Navbar = () => {
                     <a
                       key={item.name}
                       href={`${baseHref}${item.href}`} // Set the href attribute
-                      className={`text-gray-300 hover:bg-gray-600 px-3 py-2 rounded-md text-sm font-medium ${
-                        router.pathname === `${item.href}` ? 'bg-gray-700' : ''
+                      className={`text-gray-300 hover:bg-gray-500 px-3 py-2 rounded-md text-sm font-medium ${
+                        router.pathname === `${item.href}` ? 'bg-gray-600' : ''
                       }`}
                     >
                       {t(`navbar.${item.name}`)}
